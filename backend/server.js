@@ -11,7 +11,7 @@ mongoose.connect(process.env.MONGO_URL)
 
 app.get("/api", (req, res) => {
   res.json({
-    message: "Backend Running Successfully"
+    message: "Backend Running Successfully in CICD"
   });
 });
 
